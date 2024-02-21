@@ -3,7 +3,7 @@
     width: 480px;
     padding: 10px;
     border-radius: 20px;
-    
+
 }
 
 .qwerty {
@@ -13,18 +13,62 @@
 .zxc {
     color: rgb(77, 97, 55);
 }
+
 body {
+
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
     display: flex;
-gap: 10px;
-flex-direction: column;
-align-items: center;
-background: rgb(238,174,202);
-background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    flex-direction: column;
+    gap: 40px;
 }
+
 .add {
     background-color: rgb(162, 84, 182);
     color: rgb(171, 240, 11);
-padding: 5px 10px ;
-border-radius: 5px;
-text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.add:hover {
+    filter: brightness(1.2);
+}
+
+.add:active {
+    filter: brightness(1);
+}
+
+header,
+footer {
+    background: rgb(141, 76, 185);
+    background: linear-gradient(90deg, rgba(141, 76, 185, 1) 0%, rgba(187, 123, 189, 0.6446953781512605) 56%, rgba(198, 27, 197, 1) 100%);
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav a {
+    color: rgb(162, 0, 255);
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    background: rgb(203, 96, 108);
+    background: linear-gradient(90deg, rgba(203, 96, 108, 1) 0%, rgba(164, 63, 70, 0.6446953781512605) 56%, rgba(195, 20, 20, 1) 100%);
+    border-radius: 10px;
+}
+
+.logo,
+.copy {
+    color: rgb(88, 0, 252);
+}
+
+.posts {
+    gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
 }
