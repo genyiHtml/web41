@@ -1,0 +1,30 @@
+.post {
+    background-color: rgb(196, 98, 114);
+    width: 480px;
+    padding: 10px;
+    border-radius: 20px;
+    
+}
+
+.qwerty {
+    color: rgb(86, 180, 128);
+}
+
+.zxc {
+    color: rgb(77, 97, 55);
+}
+body {
+    display: flex;
+gap: 10px;
+flex-direction: column;
+align-items: center;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+.add {
+    background-color: rgb(162, 84, 182);
+    color: rgb(171, 240, 11);
+padding: 5px 10px ;
+border-radius: 5px;
+text-decoration: none;
+}
